@@ -44,6 +44,7 @@ public class TicTacToe {
                 && board[0][0].equals(board[2][2]))) && (board[1][1] != "-")) {
             return true;
         }
+        
 
         for (int i = 0; i < SIZE; i++) {
 
